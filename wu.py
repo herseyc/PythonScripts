@@ -31,7 +31,7 @@ api_delay = "600000"
 # Build the url to get weather information
 wu_uri = "http://api.wunderground.com/api/"+wu_api+"/conditions/q/"+wu_state+"/"+wu_city+".json"
 
-# Use Tkinert to create the Window
+# Use Tkinter to create the Window
 root = tk.Tk()
 root.title("Weather")
 root.geometry("350x150+300+300")
@@ -40,7 +40,7 @@ root.geometry("350x150+300+300")
 frame = tk.Frame(root)
 frame.pack()
 
-# Placeholders in the frame
+# Label laceholders in the frame
 wuLocation = tk.Label(frame, text='Location')
 wuLocation.pack()
 wuTime = tk.Label(frame, text='Time')
