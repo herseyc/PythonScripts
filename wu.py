@@ -10,7 +10,6 @@
 #
 ################################################################
 import base64
-import time
 import requests
 
 try:
