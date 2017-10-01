@@ -1,4 +1,14 @@
-
+################################################################
+# wu.py
+# Get Weather Info using the Weather Underground's API
+# Dipslay Weather in a Window created using Tkinter
+#
+# Set wu_api to your Weather Underground API Key
+# Set wu_state and wu_city to pull weather for your location
+#
+# http://www.vhersey.com
+#
+################################################################
 import base64
 import time
 import requests
@@ -19,7 +29,7 @@ except ImportError:
 
 
 # Weather Underground API 
-# Get your APIkey here: https://www.wunderground.com/weather/api/?apiref=cfe61f63df094ac0
+# Get your API key here: https://www.wunderground.com/weather/api/?apiref=cfe61f63df094ac0
 wu_api = "PUTYOURAPIKEYHERE"
 wu_state = "VA"
 wu_city = "Suffolk"
